@@ -8,6 +8,7 @@ Everything is orchestrated via `main.py` for reproducibility.
 ---
 
 ## 📂 Project Structure
+```
 
 cobol-to-explanation/
 │
@@ -59,6 +60,8 @@ cobol-to-explanation/
 ├── main.py                     # CLI entry point orchestrating extract → pipeline → evaluation
 ├── requirements.txt            # Python dependencies (LangChain, LangGraph, networkx, sentence-transformers, etc.)
 └── README.md                   # This file: setup, structure, replication guide
+```
+
 
 ### `src/` – Core Source Code
 - **`extractors/`**
